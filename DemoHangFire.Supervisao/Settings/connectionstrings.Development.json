@@ -1,0 +1,10 @@
+{
+  "ConnectionStrings": {
+    //"DefaultConnection": "data source=h-cdbd01;initial catalog=Supervisao;persist security info=true;User ID=usrSupervisao;Password=V7e%uPu#Ao;TrustServerCertificate=True;"
+    //"DefaultConnectionHangFire": "Data Source=localhost,1433;Initial Catalog=db_hangfire; User ID=HangFire; Password=senha_hangfire@1234; TrustServerCertificate=True;",
+    //"DefaultConnectionHangFire": "Data Source=localhost,1401;Initial Catalog=HangfireDbDemo; persist security info=true;User ID=sa; Password=senha@1234; TrustServerCertificate=True;",
+    //"DefaultConnection": "data source=localhost,1433;initial catalog=Supervisao;persist security info=true;User ID=sa;Password=senha@1234; TrustServerCertificate=True;"
+    "DefaultConnectionHangFire": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Hangfire; Integrated Security=SSPI;",
+    "DefaultConnection": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=SupervisaoDB;Integrated Security=SSPI;"
+  }
+}
